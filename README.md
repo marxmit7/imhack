@@ -1,0 +1,2 @@
+# Pyamit
+Python practise repository!

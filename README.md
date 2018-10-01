@@ -1,20 +1,35 @@
+
 # Pyamit
-Python practise repository!
+A Python practise repository!
 
+## Structure
+Each script/topic goes inside it's own folder with a README.md
+Line 1 of the README should be a H1 title of the script/topic
+Line 3 of the README should be a H2 short description
 
-- Data Structure Implementation
-  - Sorting Algorithms.
-    - Insertion Sort
-    - Merge Sort
-    - Quick Sort
-    - Selection Sort
-  - Search Algorithms
-    - Binary Search
-    - Linear Search
+Folders must **not** have spaces in the name otherwise the folder links **will not work**
 
-- Youtube: play song directly writting the name of the song
+**ALWAYS RUN `update.py` BEFORE PUSHING COMMITS**
 
-- Google news feed: listen to top news of world, sports and India.
+e.g.
+```
+# Project title
 
-- Img to pdf: Resize images to A4 size in a given directory and merge them into a single PDF file.
+## Short description of this project
+```
 
+## Index
+
+[argparse](argparse) - No description provided.
+
+[assistant](assistant) - No description provided.
+
+[Data_Structure](Data_Structure) - No description provided.
+
+[Deep_learning](Deep_learning) - No description provided.
+
+[download_files_from_csv](download_files_from_csv) - No description provided.
+
+[google_news](google_news) - No description provided.
+
+[YouTube](youtube) - Searches a query on YouTube

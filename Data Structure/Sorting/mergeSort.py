@@ -1,3 +1,4 @@
+import random
 def mergeSort(alist):
     if len(alist)>1:
         mid = len(alist)/2
@@ -29,6 +30,7 @@ def mergeSort(alist):
             k=k+1
 
 
-alist= [165,164,158,150,144,137,135,108,103,94,92,80,65,64,52,44,10,6,6,3]
+alist= random.sample(range(300), 10)    #picking 10 numbers randomly that lies in the range of [0,300)
+print("The List before sorting-",alist)
 mergeSort(alist)
-print(alist)
+print("The List after sorting-",alist)

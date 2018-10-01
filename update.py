@@ -46,7 +46,7 @@ for folder in folders:
             if name[0] != "#":
                 name = folder.name
             else:
-                name = desc.replace("#", " ").strip()
+                name = names.replace("#", " ").strip()
 
     except FileNotFoundError:
         desc = NO_DESC_MESSAGE

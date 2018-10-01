@@ -15,6 +15,8 @@ Each script/topic goes inside it's own folder with a README.md
 Line 1 of the README should be a H1 title of the script/topic
 Line 3 of the README should be a H2 short description
 
+Folders must **not** have spaces in the name otherwise the folder links **will not work**
+
 e.g.
 ```
 # Project title
@@ -46,7 +48,7 @@ for folder in folders:
             if name[0] != "#":
                 name = folder.name
             else:
-                name = names.replace("#", " ").strip()
+                name = name.replace("#", " ").strip()
 
     except FileNotFoundError:
         desc = NO_DESC_MESSAGE

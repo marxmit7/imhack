@@ -3,11 +3,11 @@
 A Python practise repository!
 
 ## Structure
-Each script/topic goes inside it's own folder with a README.md  
+Each script/topic goes inside it's own folder with a README.md
+Line 1 of the README should be a H1 title of the script/topic
+Line 3 of the README should be a H2 short description
 
-Line 1 of the README should be a H1 title of the script/topic  
-
-Line 3 of the README should be a H2 short description  
+Folders must **not** have spaces in the name otherwise the folder links **will not work**
 
 e.g.
 ```
@@ -22,12 +22,12 @@ e.g.
 
 [assistant](assistant) - No description provided.
 
-[Data Structure](Data Structure) - No description provided.
+[Data_Structure](Data_Structure) - No description provided.
 
-[Deep learning](Deep learning) - No description provided.
+[Deep_learning](Deep_learning) - No description provided.
 
-[download files from csv](download files from csv) - No description provided.
+[download_files_from_csv](download_files_from_csv) - No description provided.
 
-[google news](google news) - No description provided.
+[google_news](google_news) - No description provided.
 
-[Searches a query on YouTube](youtube) - Searches a query on YouTube
+[YouTube](youtube) - Searches a query on YouTube

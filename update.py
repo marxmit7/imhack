@@ -17,6 +17,8 @@ Line 3 of the README should be a H2 short description
 
 Folders must **not** have spaces in the name otherwise the folder links **will not work**
 
+**ALWAYS RUN `update.py` BEFORE PUSHING COMMITS**
+
 e.g.
 ```
 # Project title

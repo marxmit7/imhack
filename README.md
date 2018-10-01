@@ -3,9 +3,9 @@
 A Python practise repository!
 
 ## Structure
-Each script/topic goes inside it's own folder with a README.md
-Line 1 of the README should be a H1 title of the script/topic
-Line 3 of the README should be a H2 short description
+Each script/topic goes inside it's own folder with a README.md  
+Line 1 of the README should be a H1 title of the script/topic  
+Line 3 of the README should be a H2 short description  
 
 e.g.
 ```

@@ -74,7 +74,7 @@ if r.status_code == 200:
     contributors = r.json()
     for contributor in contributors:
         username = contributor["login"]
-        url = contributor["url"].replace("api.", "")
+        url = contributor["url"].replace("api.", "www.").replace("users/", "")
         print(f"{username}: {url}")
         contributor_template += f"[{username}]({url})   \n"
 else:

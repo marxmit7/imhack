@@ -1,4 +1,5 @@
 import pathlib
+import requests
 
 # Blacklisted folders to ignore when contructing index
 BLACKLIST = [
@@ -27,6 +28,11 @@ e.g.
 ```
 
 ## Index
+
+"""
+
+contributor_template = """
+# Contributors
 
 """
 
@@ -62,4 +68,19 @@ with open("README.md", "w") as f:
     f.write(template)
 
 print("Updated README.md index!")
+
+r = requests.get("https://api.github.com/repos/amit2rockon/pymit/contributors")
+if r.status_code == 200:
+    contributors = r.json()
+    for contributor in contributors:
+        username = contributor["login"]
+        url = contributor["url"].replace("api.", "")
+        print(f"{username}: {url}")
+        contributor_template += f"[{username}]({url})   \n"
+else:
+    print(f"{r.status_code}: Error making request for contributors")
+
+with open("CONTRIBUTORS.md", "w") as f:
+    f.write(contributor_template)
+
 input("Press enter to continue. . .")

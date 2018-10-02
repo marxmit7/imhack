@@ -8,9 +8,9 @@ Python's **os** and **sys** module.
 
 ## Usage
 
-'''
+```
 python app.py <path_of_the_dir> <filename_we_want>
-'''
+```
 
 ## Demo
 

@@ -1,6 +1,6 @@
 
-# Pyamit
-A Python practise repository!
+# Pymit
+cool python scripts!
 
 ## Structure
 Each script/topic goes inside it's own folder with a README.md
@@ -26,23 +26,23 @@ e.g.
 
 [argparse](argparse) - No description provided.
 
-[Deep_learning](Deep_learning) - No description provided.
+[Deep_learning](Deep_learning) - implementation of deep learning technical terms from scratch
 
-[google_news](google_news) - No description provided.
+[google_news](google_news) - scrap the news from google news
 
-[download_files_from_csv](download_files_from_csv) - No description provided.
+[download_files_from_csv](download_files_from_csv) - Download files whose links are given in csv file.
 
-[Website Blocker using Python](Website-Blocker) - No description provided.
+[Website Blocker using Python](Website-Blocker) -  It blocks website 
 
 [ev.py](ev) - No description provided.
 
-[Img to pdf](Img to pdf) - No description provided.
+[Img to pdf](Img to pdf) - convert any image to pdf.
 
-[assistant](assistant) - No description provided.
+[assistant](assistant) - an e-assistant using Google speech recognition.
 
-[ExtractMost Common Word from text file](ExtractMost Common Word from text file) - No description provided.
+[ExtractMost Common Word from text file](ExtractMost Common Word from text file) - extract most common words from a text file
 
 [youtube](youtube) - No description provided.
 
-[Data_Structure](Data_Structure) - No description provided.
+[Data_Structure](Data_Structure) - Implementation of data structure and algorithms.
 

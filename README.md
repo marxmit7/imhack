@@ -20,6 +20,8 @@ e.g.
 
 ## Index
 
+[CLI-CHAT](CLI_CHAT) - No description provided.
+
 [clever-bot-discord](cleverbot_discord) - No description provided.
 
 [KEY_CAPTURER](key_capturer) - this script can caputre your all of keyboard input strokes.

@@ -1,6 +1,6 @@
 
-# Pyamit
-A Python practise repository!
+# ImHack
+A Python hack repository!
 
 ## Structure
 Each script/topic goes inside it's own folder with a README.md
